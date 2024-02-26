@@ -8,7 +8,7 @@ const teams = [{
     team.value = teams[0]
   }
 }, {
-  label: 'NuxtLabs',
+  label: 'Base.CX',
   avatar: {
     src: 'https://avatars.githubusercontent.com/u/62017400?s=200&v=4'
   },

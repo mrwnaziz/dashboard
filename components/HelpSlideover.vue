@@ -80,7 +80,7 @@ const filteredCategories = computed(() => {
     </template>
 
     <div v-if="shortcuts" class="space-y-6">
-      <UInput v-model="query" icon="i-heroicons-magnifying-glass" placeholder="Search..." autofocus color="gray" />
+      <UInput v-model="query" icon="i-heroicons-plus" placeholder="Search..." autofocus color="gray" />
 
       <div v-for="(category, index) in filteredCategories" :key="index">
         <p class="mb-3 text-sm text-gray-900 dark:text-white font-semibold">
